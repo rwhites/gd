@@ -1,6 +1,5 @@
 <?php
-include 'curl.php';
-include 'head.php';
+include 'func.php';
 
 $clean = fopen('error_log', 'w');
 fwrite($clean,'');
